@@ -108,7 +108,7 @@ Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mut
 
 ---
 
-## 🧠 Resumen de la Lógica del Proyecto de Detección de Mutantes
+## 🧠  Lógica del Proyecto de Detección de Mutantes
 
 Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mutante, evaluando secuencias de cuatro letras idénticas en las siguientes direcciones:
 
@@ -129,7 +129,7 @@ Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mut
 - **Servicio de estadísticas** que proporciona datos sobre la proporción de mutantes a humanos, mejorando la gestión y análisis de los datos en el sistema.
 
 ---
-## 📏 Resumen de la Lógica de Validación
+## 📏  Lógica de Validación
 
 La clase `AdnValidator` incluye métodos para validar el ADN:
 
@@ -145,7 +145,7 @@ Se definen excepciones personalizadas para manejar errores específicos:
 - **`MutanteNotFoundException`**
 
 ---
-## 🧪 Resumen de la Lógica de Pruebas
+## 🧪 Lógica de Pruebas
 
 La clase `MutanteServiceTest` implementa pruebas con **JUnit** para validar la funcionalidad del servicio `MutanteService`:
 
