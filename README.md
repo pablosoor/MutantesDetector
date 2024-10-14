@@ -1,17 +1,18 @@
 ![image](https://github.com/user-attachments/assets/9401013a-7e0a-4524-86c4-943d32decbf7)
 
-#  Detector de Mutantes
+#  Detector de Mutantes 🧲
 
-Este proyecto es una aplicación de Spring Boot diseñada para detectar si una secuencia de ADN pertenece a un mutante, basada en la búsqueda de secuencias repetitivas de bases nitrogenadas (A, T, C, G) en una matriz NxN.
+Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mutante, evaluando secuencias de cuatro letras idénticas en direcciones verticales, horizontales y diagonales. Se implementan validaciones para la longitud y los caracteres del ADN, así como un sistema de excepciones para manejar errores. Se utilizan repositorios para interactuar con la base de datos, y un servicio de estadísticas proporciona datos sobre la proporción de mutantes a humanos, mejorando la gestión y análisis de los datos en el sistema.
 
 
-## Pre-Requisitos
+
+## Pre-Requisitos 🛜
 
 - Cuenta en Render
 - Postman para pruebas
 - Base de datos H2
 
-## Requerimientos de Software
+## Requerimientos de Software 🧑‍💻
 
 | Programas                | Versión |
 |--------------------------|---------|
@@ -20,7 +21,7 @@ Este proyecto es una aplicación de Spring Boot diseñada para detectar si una s
 | Maven                    | 3.8.6   |
 | JUnit                    | 5.9.3   |
 
-## Herramientas
+## Herramientas 🛠️
 
 | Programas                | Descripción                               |
 |--------------------------|-------------------------------------------|
@@ -53,9 +54,9 @@ Este proyecto es una aplicación de Spring Boot diseñada para detectar si una s
 
 
 
-## Operaciones de la API
+## Operaciones de la API 💻
 
-### **1. Obtener Mutantes**
+### **1. Obtener Mutantes** ✅
 **Método**: `GET`  
 **URL**: `http://localhost:9000/api/v1/mutantes`  
 
@@ -85,7 +86,7 @@ Este proyecto es una aplicación de Spring Boot diseñada para detectar si una s
 ]
 ```
 
-### **2. Estadísticas de ADN**
+### **2. Estadísticas de ADN** 📈
 **Método**: `POST`  
 **URL**: `http://localhost:9000/api/v1/mutantes/statistics`  
 
@@ -98,7 +99,7 @@ Este proyecto es una aplicación de Spring Boot diseñada para detectar si una s
 }
 ```
 
-### **3. Eliminar un Mutante**
+### **3. Eliminar un Mutante**❎
 **Método**: DELETE
 **URL**: http://localhost:9000/api/v1/mutantes/{{id}}
 
@@ -152,3 +153,7 @@ La clase `MutanteServiceTest` implementa pruebas con **JUnit** para validar la f
   - Columnas
   - Diagonales
 - Garantiza que se identifiquen correctamente tanto los ADN mutantes como los no mutantes, lo que asegura la fiabilidad del sistema.
+
+🌟 **¡ proyecto de detección de mutantes en render!** 🌟  
+Puedes acceder a la aplicación en el siguiente enlace: [¡Descubre los mutantes aquí!](https://mutantesdetector.onrender.com)
+
