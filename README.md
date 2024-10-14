@@ -2,7 +2,7 @@
 
 #  Detector de Mutantes 🧲
 
-Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mutante, evaluando secuencias de cuatro letras idénticas en direcciones verticales, horizontales y diagonales. Se implementan validaciones para la longitud y los caracteres del ADN, así como un sistema de excepciones para manejar errores. Se utilizan repositorios para interactuar con la base de datos, y un servicio de estadísticas proporciona datos sobre la proporción de mutantes a humanos, mejorando la gestión y análisis de los datos en el sistema.
+Este proyecto utiliza **Spring Boot** para detectar si un ADN pertenece a un mutante, evaluando secuencias de cuatro secuencias repetitivas (A, T, C, G) en direcciones verticales, horizontales y diagonales. Se implementan validaciones para la longitud y los caracteres del ADN, así como un sistema de excepciones para manejar errores. Se utilizan repositorios para interactuar con la base de datos, y un servicio de estadísticas proporciona datos sobre la proporción de mutantes a humanos, mejorando la gestión y análisis de los datos en el sistema.
 
 ---
 
